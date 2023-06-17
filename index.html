@@ -71,25 +71,52 @@
 
     <!-- home -->
     <div class="home">
-      <div>
+      <div class="home_img">
         <img
           class="d-block w-100"
-          style="position: relative"
+          style="position: relative; opacity: 0.75"
           src="assets/images/image 1.png"
           alt=""
         />
         <div class="content">
-          <h1>We Care About Your Dental Health</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing
-            <br />
-            elit, sed do eiusmod tempor incididunt ut labore et
-            <br />
-            dolore magna aliqua. Et tortor
-          </p>
-          <button type="button" class="btn btn-primary">
+          <h1 style="color: #093a42">
+            We Care About <br />
+            Your Dental Health
+          </h1>
+          <div  class="content_para">
+            <span >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor
+              </span>
+            </span>
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            style="background-color: #339eb0; margin-top: 30px;font-weight: 600;"
+          >
             Book Appointment
           </button>
+        </div>
+        <div class="search_box">
+          <div class="row height d-flex justify-content-center align-items-center ;">
+
+            <div class="col-md-6" >
+              
+                <div class="form">
+                  <i class="fa fa-search"></i>
+                  <input type="text" class="form-control form-input" placeholder="Search anything...">
+                  <span class="left-pan"><i class="fa fa-microphone"></i></span>
+                </div>
+                
+              
+            </div>
+            <div class="col-md-3">
+              <a href="#" class="custom-button">Click me</a>
+
+            </div>
+            
+            
+          </div>
         </div>
       </div>
     </div>
@@ -107,7 +134,7 @@
       </div>
       <div class="about_us_R">
         <h2>about Us</h2>
-        <p>
+        <span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor
           consequat id porta nibh venenatis cras. Facilisi morbi tempus iaculis
@@ -115,7 +142,8 @@
           purus in.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et
           tortor consequat id porta nibh venenatis cras.
-        </p>
+        </span>
+        <br />
         <button type="button" class="btn btn-primary">Learn More</button>
       </div>
     </div>
@@ -173,13 +201,17 @@
     <div class="container-fluid treatment">
       <div class="container">
         <span class="treatment_head"> Treatments </span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore
-          <br />
-          magna aliqua. Et tortor consequat id porta nibh venenatis cras.
-          Facilisi morbi
-        </p>
+        <br />
+        <div>
+          <span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore
+            <br />
+            magna aliqua. Et tortor consequat id porta nibh venenatis cras.
+            Facilisi morbi
+          </span>
+        </div>
+        <br />
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -291,7 +323,7 @@
     <div class="container-fluid blog">
       <div class="container">
         <span class="blog_head">Blogs & Articles</span>
-        <p>
+        <p style="color: black !important;">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore
           <br />
@@ -311,7 +343,7 @@
                 <div class="card-body">
                   <a href="#" class="btn btn-primary">18 August 2022</a>
                   <h6 class="card_title">Importance of Dental Care</h6>
-                  <p class="card-text">
+                  <p class="card-text" style="color: black !important;">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -336,7 +368,8 @@
                 <div class="card-body">
                   <a href="#" class="btn btn-primary">18 August 2022</a>
                   <h6 class="card_title">Importance of Dental Care</h6>
-                  <p class="card-text">
+                  <p class="card-text" style="color: black !important;">
+
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -361,7 +394,9 @@
                 <div class="card-body">
                   <a href="#" class="btn btn-primary">18 August 2022</a>
                   <h6 class="card_title">Importance of Dental Care</h6>
-                  <p class="card-text">
+                  
+                  <p class="card-text" style="color: black !important;">
+
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -386,7 +421,8 @@
                 <div class="card-body">
                   <a href="#" class="btn btn-primary">18 August 2022</a>
                   <h6 class="card_title">Importance of Dental Care</h6>
-                  <p class="card-text">
+                  <p class="card-text" style="color: black !important;">
+
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -409,15 +445,116 @@
 
         <div class="achivement">
           <span class="award">Awards & Achievements</span>
-          <div style="margin-top: 30px;">
-            <p>
+          <div style="margin-top: 30px">
+            <span>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
               Et tortor consequat id porta nibh venenatis cras. Facilisi morbi
-            </p>
+            </span>
+          </div>
+          <div class="achievement_card_div">
+            <div class="achievement_card">
+              <div class="achievement_card_img_div">
+                <img src="assets/images/achivement_icon.png" alt="" />
+              </div>
+              <span class="card_p">Entrepreneur of year 2022</span>
+            </div>
+            <div class="achievement_card">
+              <div class="achievement_card_img_div">
+                <img src="assets/images/achivement_icon.png" alt="" />
+              </div>
+              <span class="card_p">Entrepreneur of year 2022</span>
+            </div>
+            <div class="achievement_card">
+              <div class="achievement_card_img_div">
+                <img src="assets/images/achivement_icon.png" alt="" />
+              </div>
+              <span class="card_p">Entrepreneur of year 2022</span>
+            </div>
+            <div class="achievement_card">
+              <div class="achievement_card_img_div">
+                <img src="assets/images/achivement_icon.png" alt="" />
+              </div>
+              <span class="card_p">Entrepreneur of year 2022</span>
+            </div>
+            <div class="achievement_card">
+              <div class="achievement_card_img_div">
+                <img src="assets/images/achivement_icon.png" alt="" />
+              </div>
+              <span class="card_p">Entrepreneur of year 2022</span>
+            </div>
+            <div class="achievement_card">
+              <div class="achievement_card_img_div">
+                <img src="assets/images/achivement_icon.png" alt="" />
+              </div>
+              <span class="card_p">Entrepreneur of year 2022</span>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container-fluid footer">
+      <div class="container footer_container">
+        <div class="dental_plus">
+          <img src="assets/images/Dental plus.png" alt="" />
+          <div class="dental_plus_para">
+            <span style="color: white"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              labore et dolore magna Lorem ipsum dolor sit amet, consectetur
+              adipiscing
+            </span>
+          </div>
+          <div class="social">
+            <img src="assets/images/LinkedIn.png" alt="" />
+            <img src="assets/images/fb.png" alt="" />
+            <img src="assets/images/youtub.png  " alt="" />
+            <img src="assets/images/twiter.png" alt="" />
+            <img src="assets/images/instagram.png" alt="" />
+          </div>
+        </div>
+        <div class="menu">
+          <h3 style="color: white">Menu</h3>
+          <p>Home</p>
+          <p>About</p>
+          <p>Treatments</p>
+          <p>Specialists</p>
+          <p>Blogs</p>
+          <p>Contact</p>
+        </div>
+        <div class="treatmentF">
+          <h3 style="color: white">Treatments</h3>
+
+          <p>Dentel Implant</p>
+          <p>Root Canal</p>
+          <p>Laser Dentistry</p>
+          <p>Child Dentistry</p>
+          <p>Dental Bridge</p>
+          <p>More...</p>
+        </div>
+        <div class="doctors">
+          <h3 style="color: white">Doctors</h3>
+
+          <p>Dr. LAKSHMI A</p>
+          <p>Dr. ANGELA MATHEW</p>
+          <p>Dr. JACOB THOMAS</p>
+          <p>Dr. Elsa Paul</p>
+          <p>More...</p>
+        </div>
+        <div class="locations">
+          <h3 style="color: white">Locations</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, labore et
+            dolore
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, labore et
+            dolore
+          </p>
+        </div>
+      </div>
+      <div class="container divider"></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

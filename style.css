@@ -1,14 +1,75 @@
 .home_img {
-  height: 817px;
+  /* height: 817px; */
+  height: auto;
   object-fit: cover;
   position: relative;
 }
 .content {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 10%;
 }
+.content_para {
+  width: 350px;
+}
+.content_btn {
+  background-color: #339eb0;
+  margin-top: 30px;
+}
+.content_para span {
+  font-weight: 400;
+  font-size: 16px;
+}
+.search_box {
+  margin-left: 140px;
+  position: absolute;
+  top: 93%;
+  box-shadow: 3px 7px 8px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #339eb0;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #0a5562;
+  color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+  .content_para {
+    width: 200px;
+  }
+  .content {
+    position: absolute;
+    top: 12%;
+    left: 10%;
+  }
+  .content h1 {
+    font-size: 15px;
+  }
+  .home_img {
+    height: 320px !important;
+  }
+  .home div img {
+    height: 320px !important;
+    object-fit: cover;
+  }
+}
 .about_us {
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -119,8 +180,11 @@ p {
 
 /* blog */
 .blog {
+  margin-top: 40px;
   background-color: #eef3f6;
-  height: 400px;
+  /* height: 1100px; */
+  height: auto;
+  padding-bottom: 40px;
 }
 .blog_head {
   color: #093a42;
@@ -133,13 +197,124 @@ p {
   color: #093a42;
   padding-top: 12px;
 }
-  
-.award{
-
+.achivement {
+  margin-top: 30px;
+}
+.award {
   color: #093a42;
   font-weight: 600;
   font-size: 40px;
   line-height: 48px;
-  padding-bottom: 24px;
+  padding-bottom: 34px;
   padding-top: 24px;
+}
+.achievement_card_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.achievement_card {
+  width: 400px;
+  height: 130px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+.achievement_card_img_div {
+  width: 75px;
+  height: 75px;
+  background-color: #339eb0;
+  border-radius: 9px;
+}
+.achievement_card_img_div img {
+  width: 38px;
+  margin-left: 18px;
+  margin-top: 12px;
+}
+.card_p {
+  color: #093a42;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.footer {
+  background-color: #339eb0;
+  height: auto;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.footer_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.dental_plus {
+  width: 300px;
+  flex-basis: 300px;
+}
+.dental_plus img {
+  width: 116px;
+}
+.dental_plus_para {
+  margin: 30px 20px 30px 0;
+}
+.social img {
+  width: 30px;
+}
+p {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.44px;
+}
+.doctors,
+.treatmentF,
+.menu,
+.locations {
+  width: 200px;
+  /* background-color: #2d8ecb; */
+}
+.divider {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: lightblue;
+  } */
+
+  .achievement_card {
+    width: 150px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .achievement_card_img_div {
+    width: 54px;
+    height: 54px;
+    background-color: #339eb0;
+    border-radius: 9px;
+  }
+  .achievement_card_img_div img {
+    width: 28px;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+  .card_p {
+    color: #093a42;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+  }
 }
