@@ -28,46 +28,40 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+          <img src="assets/images/Group 44 (1).png" style="width: 90px;" alt="">
+              </li>
+            </ul>
+            
+              <div class="header_nav">
+              <a class="header_btn">Home</a>
+              <a class="header_btn">About us</a>
+              <a class="header_btn">Treatments</a>
+              <a class="header_btn">Specialists</a>
+              <a class="header_btn">Blogs</a>
+              <a class="header_btn">Contact</a>
+              </div>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+
 
     <!-- home -->
     <div class="home">
@@ -97,7 +91,10 @@
             Book Appointment
           </button>
         </div>
-        <div class="search_box">
+
+<!-- search box -->
+
+        <!-- <div class="search_box">
           <div class="row height d-flex justify-content-center align-items-center ;">
 
             <div class="col-md-6" >
@@ -117,34 +114,36 @@
             
             
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
     <!-- about-us -->
 
-    <div class="about_us">
-      <div class="about_us_L">
-        <img
-          class="d-block w-100"
-          style="height: 300px; object-fit: cover"
-          src="assets/images/about-us.png"
-          alt=""
-        />
-      </div>
-      <div class="about_us_R">
-        <h2>about Us</h2>
-        <span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor
-          consequat id porta nibh venenatis cras. Facilisi morbi tempus iaculis
-          urna id volutpat lacus laoreet. Neque sodales ut etiam sit amet nisl
-          purus in.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et
-          tortor consequat id porta nibh venenatis cras.
-        </span>
-        <br />
-        <button type="button" class="btn btn-primary">Learn More</button>
+    <div class="container">
+      <div class="about_us">
+        <div class="about_us_L">
+          <img 
+            class="d-block w-100"
+            style="height: 300px; object-fit: cover ;border-radius: 16px;"
+            src="assets/images/about-us.png"
+            alt="about-us image"
+          />
+        </div>
+        <div class="about_us_R">
+          <h2>about Us</h2>
+          <span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor
+            consequat id porta nibh venenatis cras. Facilisi morbi tempus iaculis
+            urna id volutpat lacus laoreet. Neque sodales ut etiam sit amet nisl
+            purus in.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et
+            tortor consequat id porta nibh venenatis cras.
+          </span>
+          <br />
+          <button type="button" class="btn btn-primary" style="background-color: #339EB0;width: 220px;">Learn More</button>
+        </div>
       </div>
     </div>
 
@@ -320,6 +319,32 @@
 
     <!-- Blogs -->
 
+
+    <div class="container-fluid clinic" >
+      <div class="container">
+        <h2 style="color: #ffff;">Our Clinic</h2>
+        <div style="padding-bottom: 20px;">
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor consequat id porta nibh venenatis cras. Facilisi morbi</span>
+        </div>
+        <div class="clinic_img">
+          <img  src="assets/images/our_clinic.png" alt="">
+          <img src="assets/images/our_clinic1.png" alt="">
+          <img src="assets/images/our_clinic2.png" alt="">
+          <img src="assets/images/our_clinic3.png" alt="">
+          <img src="assets/images/our_clinic4.png" alt="">
+          <img src="assets/images/our_clinic2.png" alt="">
+
+
+
+        </div>
+
+      
+      </div>
+
+
+
+    </div>
+
     <div class="container-fluid blog">
       <div class="container">
         <span class="blog_head">Blogs & Articles</span>
@@ -341,7 +366,7 @@
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <a href="#" class="btn btn-primary">18 August 2022</a>
+                  <a href="#" class="btn btn-primary" style="background-color: #339EB0;">18 August 2022</a>
                   <h6 class="card_title">Importance of Dental Care</h6>
                   <p class="card-text" style="color: black !important;">
                     Some quick example text to build on the card title and make
@@ -366,7 +391,7 @@
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <a href="#" class="btn btn-primary">18 August 2022</a>
+                  <a href="#" class="btn btn-primary" style="background-color: #339EB0;">18 August 2022</a>
                   <h6 class="card_title">Importance of Dental Care</h6>
                   <p class="card-text" style="color: black !important;">
 
@@ -392,7 +417,7 @@
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <a href="#" class="btn btn-primary">18 August 2022</a>
+                  <a href="#" class="btn btn-primary" style="background-color: #339EB0;">18 August 2022</a>
                   <h6 class="card_title">Importance of Dental Care</h6>
                   
                   <p class="card-text" style="color: black !important;">
@@ -419,7 +444,7 @@
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <a href="#" class="btn btn-primary">18 August 2022</a>
+                  <a href="#" class="btn btn-primary" style="background-color: #339EB0;">18 August 2022</a>
                   <h6 class="card_title">Importance of Dental Care</h6>
                   <p class="card-text" style="color: black !important;">
 
